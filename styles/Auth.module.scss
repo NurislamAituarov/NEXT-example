@@ -1,0 +1,23 @@
+.auth_page {
+  height: 100vh;
+  background: url(../public/images.jpeg) no-repeat;
+  background-size: contain;
+}
+.auth_form {
+  margin: 0 auto;
+  width: 20vw;
+  height: 50vh;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tinder {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.active {
+  fill: rgb(251, 255, 0);
+}
